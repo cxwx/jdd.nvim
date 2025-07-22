@@ -44,9 +44,7 @@ Plug 'mahyarmirrashed/jdd.nvim'
 {
   "mahyarmirrashed/jdd.nvim",
   dependencies = { "nvim-lua/plenary.nvim" },
-  config = function()
-    require("jdd").setup()
-  end,
+  opts = {},
 }
 ```
 
